@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.pulseforge-comms]
+path = "contracts/pulseforge-comms.clar"
+depends_on = []
+
 [contracts.pulseforge-core]
 path = "contracts/pulseforge-core.clar"
 depends_on = []
