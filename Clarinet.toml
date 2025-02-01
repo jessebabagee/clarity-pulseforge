@@ -8,6 +8,10 @@ requirements = []
 path = "contracts/pulseforge-core.clar"
 depends_on = []
 
+[contracts.pulseforge-milestones]
+path = "contracts/pulseforge-milestones.clar"
+depends_on = []
+
 [repl]
 costs_version = 2
 parser_version = 2
